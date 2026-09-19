@@ -198,7 +198,6 @@ body {
     background: var(--card-alt);
     border: 1px solid rgba(52, 211, 153, 0.18);
     border-left: 4px solid var(--accent-color);
-    padding: 1.25rem;
     border-radius: 8px;
     transition: var(--transition-smooth);
 }
@@ -349,5 +348,9 @@ body {
     color: var(--accent-color);
 }
 .project-card a{
-    color: var(--primary-color);
+    display: block;
+    height: 100%;
+    padding: 1.25rem;
+    color: var(--text-primary);
+    text-decoration: none;
 }
