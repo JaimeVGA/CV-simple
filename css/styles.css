@@ -348,3 +348,6 @@ body {
 .cv-footer a{
     color: var(--accent-color);
 }
+.project-card a{
+    color: var(--primary-color);
+}
